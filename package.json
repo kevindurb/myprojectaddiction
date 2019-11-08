@@ -1,0 +1,15 @@
+{
+  "name": "myprojectaddiction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "marked": "^0.7.0"
+  }
+}
