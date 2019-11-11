@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Project Addiction</title>
+  </head>
+  <body>
+    <ul>
+      <%-
+        posts.map(post => `
+          <li>
+            <a href="${post.url}">
+              ${post.title}
+            </a>
+          </li>
+        `);
+      %>
+    </ul>
+  </body>
+</html>
